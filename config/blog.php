@@ -1,9 +1,15 @@
 <?php
 return [
-        'title' => 'My Blog',
-        'posts_per_page' => 5,
-        'uploads' => [
+    'name' => "Kevin's Blog",
+    'title' => "Kevin's Blog",
+    'subtitle' => 'A Paltfrom Sharing Ideas',
+    'description' => 'To be a better man',
+    'author' => 'Kaiwen Luo',
+    'page_image' => 'home-bg.jpg',
+    'posts_per_page' => 10,
+    'uploads' => [
         'storage' => 'public',
-        'webpath' => '/storage',
+        'webpath' => '/storage/uploads',
+        // 'webpath' => '/storage',
     ],
 ];
