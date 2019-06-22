@@ -6,7 +6,7 @@ return [
     'description' => 'To be a better man',
     'author' => 'Kaiwen Luo',
     'page_image' => 'home-bg.jpg',
-    'posts_per_page' => 5,
+    'posts_per_page' => 10,
     'rss_size' => 25,
     'uploads' => [
         'storage' => 'public',

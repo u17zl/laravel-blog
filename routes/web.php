@@ -47,3 +47,5 @@ Route::get('contact', 'ContactController@showForm');
 Route::post('contact', 'ContactController@sendContactInfo');
 // RSS订阅
 Route::get('rss', 'BlogController@rss');
+// SiteMap
+Route::get('sitemap.xml', 'BlogController@siteMap');
