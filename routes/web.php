@@ -45,3 +45,5 @@ Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 //联系我们
 Route::get('contact', 'ContactController@showForm');
 Route::post('contact', 'ContactController@sendContactInfo');
+// RSS订阅
+Route::get('rss', 'BlogController@rss');
